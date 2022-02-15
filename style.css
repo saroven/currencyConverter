@@ -1,0 +1,13 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+img {
+   height: 20px;
+   width: auto;
+}
