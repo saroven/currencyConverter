@@ -80,6 +80,7 @@ form .selectGroup {
    width: auto;
    margin: 0 -5px 0 5px;
    font-size: 1.5rem;
+   background-color: white;
 }
 .selectBox img {
    max-width: 3rem;
