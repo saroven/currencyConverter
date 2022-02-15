@@ -1,13 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
 * {
    margin: 0;
    padding: 0;
 }
 
 html {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
    font-size: 62.5%;
+   background-color: gray;
 }
 
-img {
-   height: 20px;
+h1 {
+   font-size: 3rem;
+   font-weight: 700;
+   padding-top: 3rem;
+}
+
+body {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+section {
+   background-color: white;
+   width: 100;
+   border-radius: 1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 3rem;
+}
+
+section form {
+   margin: 4rem 0 2rem 0;
+}
+
+section form :where(input, select, button) {
+   width: 100%;
+   border: none;
+   outline: none;
+   border-radius: 0.5rem;
+}
+form label {
+   font-size: 1.5rem;
+}
+form input {
+   border: 1px solid #999;
+   height: 4rem;
+   margin: 1rem 0;
+}
+
+form input:focus {
+   border: 1px solid #675afe;
+}
+
+form .selectGroup {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.selectGroup .selectBox {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 11rem;
+   height: 4rem;
+   border-radius: 5px;
+   margin-top: 1rem;
+   border: 1px solid #999;
+}
+
+.selectBox select {
    width: auto;
+   margin: 0 -5px 0 5px;
+   font-size: 1.5rem;
+}
+.selectBox img {
+   max-width: 3rem;
+}
+
+.icon {
+   width: 2rem;
+   cursor: pointer;
+   margin-top: 2rem;
+}
+
+.exchangeRate {
+   font-size: 1.5rem;
+   padding: 1rem 0 2rem;
+}
+button {
+   height: 4rem;
+   background-color: #675afe;
+   color: white;
+   font-size: 1.5rem;
+   cursor: pointer;
 }

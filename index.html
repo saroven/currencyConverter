@@ -12,23 +12,40 @@
          <h1>Currency Converter</h1>
          <form action="#">
             <div class="inputGroup">
-               <label for="ammount">Amount</label>
+               <label for="ammount">Enter Amount</label>
                <input type="text" name="amount" />
             </div>
             <div class="selectGroup">
-               <select name="from" id="from">
-                  <option value="BDT">BDT</option>
-                  <option value="USD">USD</option>
-                  <option value="INR">INR</option>
-               </select>
-               <img src="./icons/exchange.svg" alt="exchangeIcon" />
-               <select name="to" id="to">
-                  <option value="USD">USD</option>
-                  <option value="BDT">BDT</option>
-                  <option value="INR">INR</option>
-               </select>
+               <div class="from">
+                  <label for="from">From</label>
+                  <div class="selectBox">
+                     <img src="https://countryflagsapi.com/svg/bd" alt="" />
+                     <select name="from" id="from">
+                        <option value="BDT">BDT</option>
+                        <option value="USD">USD</option>
+                        <option value="INR">INR</option>
+                     </select>
+                  </div>
+               </div>
+               <img
+                  class="icon"
+                  src="./icons/exchange.svg"
+                  alt="exchangeIcon"
+               />
+               <div class="to">
+                  <label for="to">To</label>
+                  <div class="selectBox">
+                     <img src="https://countryflagsapi.com/svg/bd" alt="" />
+                     <select name="to" id="to">
+                        <option value="USD">USD</option>
+                        <option value="BDT">BDT</option>
+                        <option value="INR">INR</option>
+                     </select>
+                  </div>
+               </div>
             </div>
-            <button>Convert</button>
+            <div class="exchangeRate">1 USD = 84 taka</div>
+            <button type="submit">Convert Now</button>
          </form>
       </section>
       <script src="./script.js"></script>
