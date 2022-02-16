@@ -1,253 +1,163 @@
 let countryCode = {
-   BDT: "BD",
-   EUR: "BE",
-   XOF: "BF",
-   BGN: "BG",
+   AED: "AE",
+   AFN: "AF",
+   XCD: "AG",
+   ALL: "AL",
+   AMD: "AM",
+   ANG: "AN",
+   AOA: "AO",
+   AQD: "AQ",
+   ARS: "AR",
+   AUD: "AU",
+   AZN: "AZ",
    BAM: "BA",
    BBD: "BB",
-   XPF: "WF",
-   EUR: "BL",
+   BDT: "BD",
+   XOF: "BE",
+   BGN: "BG",
+   BHD: "BH",
+   BIF: "BI",
    BMD: "BM",
    BND: "BN",
    BOB: "BO",
-   BHD: "BH",
-   BIF: "BI",
-   XOF: "BJ",
-   BTN: "BT",
-   JMD: "JM",
-   NOK: "BV",
-   BWP: "BW",
-   WST: "WS",
-   USD: "BQ",
    BRL: "BR",
    BSD: "BS",
-   GBP: "JE",
+   NOK: "BV",
+   BWP: "BW",
    BYR: "BY",
    BZD: "BZ",
-   RUB: "RU",
-   RWF: "RW",
-   RSD: "RS",
-   USD: "TL",
-   EUR: "RE",
-   TMT: "TM",
-   TJS: "TJ",
-   RON: "RO",
-   NZD: "TK",
-   XOF: "GW",
-   USD: "GU",
-   GTQ: "GT",
-   GBP: "GS",
-   EUR: "GR",
-   XAF: "GQ",
-   EUR: "GP",
-   JPY: "JP",
-   GYD: "GY",
-   GBP: "GG",
-   EUR: "GF",
-   GEL: "GE",
-   XCD: "GD",
+   CAD: "CA",
+   CDF: "CD",
+   XAF: "CF",
+   CHF: "CH",
+   CLP: "CL",
+   CNY: "CN",
+   COP: "CO",
+   CRC: "CR",
+   CUP: "CU",
+   CVE: "CV",
+   CYP: "CY",
+   CZK: "CZ",
+   DJF: "DJ",
+   DKK: "DK",
+   DOP: "DO",
+   DZD: "DZ",
+   ECS: "EC",
+   EEK: "EE",
+   EGP: "EG",
+   ETB: "ET",
+   EUR: "FR",
+   FJD: "FJ",
+   FKP: "FK",
    GBP: "GB",
-   XAF: "GA",
-   USD: "SV",
-   GNF: "GN",
-   GMD: "GM",
-   DKK: "GL",
-   GIP: "GI",
+   GEL: "GE",
+   GGP: "GG",
    GHS: "GH",
-   OMR: "OM",
-   TND: "TN",
-   JOD: "JO",
+   GIP: "GI",
+   GMD: "GM",
+   GNF: "GN",
+   GTQ: "GT",
+   GYD: "GY",
+   HKD: "HK",
+   HNL: "HN",
    HRK: "HR",
    HTG: "HT",
    HUF: "HU",
-   HKD: "HK",
-   HNL: "HN",
-   AUD: "HM",
-   VEF: "VE",
-   USD: "PR",
-   ILS: "PS",
-   USD: "PW",
-   EUR: "PT",
-   NOK: "SJ",
-   PYG: "PY",
-   IQD: "IQ",
-   PAB: "PA",
-   XPF: "PF",
-   PGK: "PG",
-   PEN: "PE",
-   PKR: "PK",
-   PHP: "PH",
-   NZD: "PN",
-   PLN: "PL",
-   EUR: "PM",
-   ZMK: "ZM",
-   MAD: "EH",
-   EUR: "EE",
-   EGP: "EG",
-   ZAR: "ZA",
-   USD: "EC",
-   EUR: "IT",
-   VND: "VN",
-   SBD: "SB",
-   ETB: "ET",
-   SOS: "SO",
-   ZWL: "ZW",
-   SAR: "SA",
-   EUR: "ES",
-   ERN: "ER",
-   EUR: "ME",
-   MDL: "MD",
-   MGA: "MG",
-   EUR: "MF",
-   MAD: "MA",
-   EUR: "MC",
-   UZS: "UZ",
-   MMK: "MM",
-   XOF: "ML",
-   MOP: "MO",
-   MNT: "MN",
-   USD: "MH",
-   MKD: "MK",
-   MUR: "MU",
-   EUR: "MT",
-   MWK: "MW",
-   MVR: "MV",
-   EUR: "MQ",
-   USD: "MP",
-   XCD: "MS",
-   MRO: "MR",
-   GBP: "IM",
-   UGX: "UG",
-   TZS: "TZ",
-   MYR: "MY",
-   MXN: "MX",
+   IDR: "ID",
    ILS: "IL",
-   EUR: "FR",
-   USD: "IO",
-   SHP: "SH",
-   EUR: "FI",
-   FJD: "FJ",
-   FKP: "FK",
-   USD: "FM",
-   DKK: "FO",
-   NIO: "NI",
-   EUR: "NL",
-   NOK: "NO",
-   NAD: "NA",
-   VUV: "VU",
-   XPF: "NC",
-   XOF: "NE",
-   AUD: "NF",
-   NGN: "NG",
-   NZD: "NZ",
-   NPR: "NP",
-   AUD: "NR",
-   NZD: "NU",
-   NZD: "CK",
-   EUR: "XK",
-   XOF: "CI",
-   CHF: "CH",
-   COP: "CO",
-   CNY: "CN",
-   XAF: "CM",
-   CLP: "CL",
-   AUD: "CC",
-   CAD: "CA",
-   XAF: "CG",
-   XAF: "CF",
-   CDF: "CD",
-   CZK: "CZ",
-   EUR: "CY",
-   AUD: "CX",
-   CRC: "CR",
-   ANG: "CW",
-   CVE: "CV",
-   CUP: "CU",
-   SZL: "SZ",
-   SYP: "SY",
-   ANG: "SX",
-   KGS: "KG",
+   INR: "IN",
+   IQD: "IQ",
+   IRR: "IR",
+   ISK: "IS",
+   JMD: "JM",
+   JOD: "JO",
+   JPY: "JP",
    KES: "KE",
-   SSP: "SS",
-   SRD: "SR",
-   AUD: "KI",
+   KGS: "KG",
    KHR: "KH",
-   XCD: "KN",
    KMF: "KM",
-   STD: "ST",
-   EUR: "SK",
-   KRW: "KR",
-   EUR: "SI",
    KPW: "KP",
+   KRW: "KR",
    KWD: "KW",
-   XOF: "SN",
-   EUR: "SM",
-   SLL: "SL",
-   SCR: "SC",
-   KZT: "KZ",
    KYD: "KY",
-   SGD: "SG",
-   SEK: "SE",
-   SDG: "SD",
-   DOP: "DO",
-   XCD: "DM",
-   DJF: "DJ",
-   DKK: "DK",
-   USD: "VG",
-   EUR: "DE",
-   YER: "YE",
-   DZD: "DZ",
-   USD: "US",
-   UYU: "UY",
-   EUR: "YT",
-   USD: "UM",
-   LBP: "LB",
-   XCD: "LC",
+   KZT: "KZ",
    LAK: "LA",
-   AUD: "TV",
-   TWD: "TW",
-   TTD: "TT",
-   TRY: "TR",
+   LBP: "LB",
    LKR: "LK",
-   CHF: "LI",
-   EUR: "LV",
-   TOP: "TO",
-   LTL: "LT",
-   EUR: "LU",
    LRD: "LR",
    LSL: "LS",
-   THB: "TH",
-   EUR: "TF",
-   XOF: "TG",
-   XAF: "TD",
-   USD: "TC",
+   LTL: "LT",
+   LVL: "LV",
    LYD: "LY",
-   EUR: "VA",
-   XCD: "VC",
-   AED: "AE",
-   EUR: "AD",
-   XCD: "AG",
-   AFN: "AF",
-   XCD: "AI",
-   USD: "VI",
-   ISK: "IS",
-   IRR: "IR",
-   AMD: "AM",
-   ALL: "AL",
-   AOA: "AO",
-   USD: "AS",
-   ARS: "AR",
-   AUD: "AU",
-   EUR: "AT",
-   AWG: "AW",
-   INR: "IN",
-   EUR: "AX",
-   AZN: "AZ",
-   EUR: "IE",
-   IDR: "ID",
-   UAH: "UA",
+   MAD: "MA",
+   MDL: "MD",
+   MGA: "MG",
+   MKD: "MK",
+   MMK: "MM",
+   MNT: "MN",
+   MOP: "MO",
+   MRO: "MR",
+   MTL: "MT",
+   MUR: "MU",
+   MVR: "MV",
+   MWK: "MW",
+   MXN: "MX",
+   MYR: "MY",
+   MZN: "MZ",
+   NAD: "NA",
+   XPF: "NC",
+   NGN: "NG",
+   NIO: "NI",
+   NPR: "NP",
+   NZD: "NZ",
+   OMR: "OM",
+   PAB: "PA",
+   PEN: "PE",
+   PGK: "PG",
+   PHP: "PH",
+   PKR: "PK",
+   PLN: "PL",
+   PYG: "PY",
    QAR: "QA",
-   MZN: "MZ"
+   RON: "RO",
+   RSD: "RS",
+   RUB: "RU",
+   RWF: "RW",
+   SAR: "SA",
+   SBD: "SB",
+   SCR: "SC",
+   SDG: "SD",
+   SEK: "SE",
+   SGD: "SG",
+   SKK: "SK",
+   SLL: "SL",
+   SOS: "SO",
+   SRD: "SR",
+   STD: "ST",
+   SVC: "SV",
+   SYP: "SY",
+   SZL: "SZ",
+   THB: "TH",
+   TJS: "TJ",
+   TMT: "TM",
+   TND: "TN",
+   TOP: "TO",
+   TRY: "TR",
+   TTD: "TT",
+   TWD: "TW",
+   TZS: "TZ",
+   UAH: "UA",
+   UGX: "UG",
+   USD: "US",
+   UYU: "UY",
+   UZS: "UZ",
+   VEF: "VE",
+   VND: "VN",
+   VUV: "VU",
+   YER: "YE",
+   ZAR: "ZA",
+   ZMK: "ZM",
+   ZWD: "ZW"
 };
 
 const selectList = document.querySelectorAll(".selectGroup select"),
@@ -267,51 +177,86 @@ for (let i = 0; i < selectList.length; i++) {
       let optionTag = `<option value="${currencyCode}" ${selected}>${currencyCode}</option>`;
       selectList[i].insertAdjacentHTML("beforeend", optionTag);
    }
-
-   window.addEventListener("load", (e) => {
-      getCurrentRate();
+   selectList[i].addEventListener("change", (e) => {
+      loadFlag(e.target);
    });
-   let checkClicked = 0;
-   convertButton.addEventListener("click", (e) => {
-      e.stopImmediatePropagation();
-      e.preventDefault();
-      checkClicked++;
-      getCurrentRate();
-   });
+}
 
-   function getCurrentRate() {
-      const exchangeRateText = document.querySelector(".exchangeRate");
-      exchangeRateText.innerHTML = "Getting Rate....";
-      const amount = document.querySelector(".inputGroup input");
-      let amountValue = amount.value;
+window.addEventListener("load", (e) => {
+   getCurrentRate();
+   loadFlag(fromCurrency);
+   loadFlag(toCurrency);
+});
 
-      if (amountValue == "0" || amountValue == "") {
-         amount.value = "1";
-         amountValue = 1;
+const exchangeIcon = document.querySelector(".exchangeIcon");
+exchangeIcon.addEventListener("click", (e) => {
+   let tempCode = fromCurrency.value;
+   fromCurrency.value = toCurrency.value;
+   toCurrency.value = tempCode;
+   getCurrentRate();
+
+   loadFlag(fromCurrency);
+   loadFlag(toCurrency);
+});
+let checkClicked = 0;
+convertButton.addEventListener("click", (e) => {
+   e.stopImmediatePropagation();
+   e.preventDefault();
+   checkClicked++;
+   getCurrentRate();
+});
+
+function loadFlag(element) {
+   for (code in countryCode) {
+      if (code == element.value) {
+         let imgTag = element.parentElement.querySelector("img");
+         imgTag.src = `https://countryflagsapi.com/svg/${countryCode[code]}`;
       }
-
-      let apiKey = "b3bd12c6a6ef0181426d27bc";
-      let url = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/${fromCurrency.value}`;
-
-      fetch(url)
-         .then((res) => res.json())
-         .then((data) => {
-            const conversionRate = data.conversion_rates[toCurrency.value];
-            let totalConversion = (amountValue * conversionRate).toFixed(2);
-            let conVal = "";
-            if (checkClicked !== 0) {
-               conVal =
-                  amountValue +
-                  fromCurrency.value +
-                  "=" +
-                  data.conversion_rates[toCurrency.value].toFixed(2) +
-                  toCurrency.value +
-                  "</br>";
-            }
-
-            exchangeRateText.innerHTML = `
-            1 ${fromCurrency.value} = ${totalConversion} ${toCurrency.value} </br>
-            <b>${conVal}</b>`;
-         });
    }
+}
+
+function getCurrentRate() {
+   const exchangeRateText = document.querySelector(".exchangeRate");
+   exchangeRateText.innerHTML = "Getting Rate....";
+   const amount = document.querySelector(".inputGroup input");
+   let amountValue = amount.value;
+
+   if (amountValue == "0" || amountValue == "") {
+      amount.value = "1";
+      amountValue = 1;
+   }
+
+   let apiKey = "b3bd12c6a6ef0181426d27bc";
+   let url = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/${fromCurrency.value}`;
+
+   fetch(url)
+      .then((res) => res.json())
+      .then((data) => {
+         const conversionRate = data.conversion_rates[toCurrency.value];
+         let totalConversion = (amountValue * conversionRate).toFixed(2);
+         let conVal = "";
+         if (checkClicked !== 0) {
+            conVal =
+               amountValue +
+               " " +
+               fromCurrency.value +
+               " = " +
+               totalConversion +
+               toCurrency.value +
+               " </br> ";
+         }
+
+         let oneVal =
+            "1 " +
+            fromCurrency.value +
+            " = " +
+            totalConversion +
+            toCurrency.value;
+
+         exchangeRateText.innerHTML =
+            conVal + " <span> Exchange Rate " + oneVal + "</span";
+      })
+      .catch(() => {
+         exchangeRateText.innerHTML = "Something went wrong.";
+      });
 }
